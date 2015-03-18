@@ -130,6 +130,13 @@ In debug builds, the tweak macros use `__attribute__((section))` to statically s
 In release builds, the macros just expand to the default value. Nothing extra is included in the binary.
 
 ## Installation
+
+### Fork
+```
+pod 'Tweaks', :podspec => 'https://raw.githubusercontent.com/arturgrigor/Tweaks/master/Tweaks.podspec'
+```
+
+### Origin
 There are two options:
 
  1. Tweaks is available as `Tweaks` in [Cocoapods](http://cocoapods.org). (If you have issues with custom Xcode configurations, [this comment](https://github.com/facebook/Tweaks/issues/4#issuecomment-40629741) might help.)
