@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
   spec.summary      = 'Easily adjust parameters for iOS apps in development.'
   spec.source       = {
-    :git => 'https://github.com/facebook/Tweaks.git', 
+    :git => 'https://github.com/arturgrigor/Tweaks.git', 
     :tag => spec.version.to_s
   }
   spec.source_files = 'FBTweak/*.{h,m}'
